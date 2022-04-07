@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+} 
+body{
+    background-color: aqua;
+    font-family: 'Press Start 2P', cursive;
+}
+h1{
+    text-align: center;
+    margin: 10px auto;
+}
+h2{
+    text-align: center;
+    margin: 10px auto;
+}
+a{
+    color: black;
+    margin: 10px;
+}
+#bienvenida div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#bienvenida a{
+    color: black;
+    margin: 5px;
+    border: dashed black ;
+    padding: 5px;
+}
+/* Inicio */
+
+#pantallaInicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+#pantallaInicio div{
+    display: flex;
+}
+#pantallaInicio img{
+    width: 50px;
+    margin: 10px 20px;
+}
+
+/* Nivel Uno */
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.contenedor div{
+    display: flex;
+}
+.contenedor img{
+    width: 50px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+p{
+    margin: 10px auto;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: dashed black ;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#formulario label{
+    margin: 10px auto;
+    font-size: 25px;
+}
+
+input{
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.boton{
+    cursor: pointer;    
+}
+
+button{
+    cursor: pointer;
+    background-color: aqua;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    margin: 5px;
+}
+
+/* Nivel Dos*/
+
+#pistas {
+    display: flex;
+    flex-direction: column;
+}
+
+#pistas div {
+    border: dashed black ;
+}
+
+#pistas p{
+    background-color: beige;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#nivelDosContenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nivelDosContenedor h1{
+    margin-top:50px
+}
+#nivelDosContenedor h2{
+    text-align: center;
+    margin-top: 20px;
+}
+#pokemones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pokemones img {
+    width: 100px;
+    text-align: center;
+    margin:10px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: dashed black ;
+    border-radius: 10px;
+    text-align: center;
+    justify-self: center;
+    margin: auto;
+}
+#pokeNombre{
+    margin: 10px;
+    width: auto;
+}
